@@ -21,42 +21,6 @@ public class AnagramServiceTest
         assertFalse(service.isAnagram("mary", "tree"));
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    @Test
 //    public void an_Anagram_Is_Case_Insensitive() {
 //        assertTrue(service.isAnagram("Mary", "ArmY"));
@@ -356,6 +320,6 @@ public class AnagramServiceTest
 
 //    @Test
 //    public void same_Letters_In_Same_Order_But_Different_Words_Does_An_Anagram_Make() {
-//        assertTrue(service.isAnagram("I said ok", "Is aid ok"));
+//        assertTrue(service.isAnagram("I said ok.", "Is aid ok?"));
 //    }
 }
